@@ -2,12 +2,17 @@
 
 A modern, responsive web application that transforms AI assistant responses into beautifully formatted documents with advanced features and stunning UI/UX design.
 
+## 🌐 Demo
+
+👉 [**AI TEXT FORMATTER PRO**](https://sudarshanbadli.github.io/Ai-Text-Formatter-Pro/)  
+
+---
+
 ## 🎨 New: Vintage Edition Available!
 
 We've now added a stunning **Old Paper Theme** for those who prefer a classic, vintage aesthetic! 
 Check out `old-paper-index.html` for the antique paper design experience.
 
-![Vintage Theme Preview](https://sudarshanbadli.github.io/Ai-Text-Formatter-Pro/)
 
 ## Features
 
@@ -168,3 +173,4 @@ Created with ❤️ for developers who work with AI assistants daily.
 
 
 For issues, feature requests, or questions, please open an issue on the GitHub repository.
+
