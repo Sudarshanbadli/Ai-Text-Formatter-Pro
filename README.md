@@ -7,7 +7,7 @@ A modern, responsive web application that transforms AI assistant responses into
 We've now added a stunning **Old Paper Theme** for those who prefer a classic, vintage aesthetic! 
 Check out `old-paper-index.html` for the antique paper design experience.
 
-![Vintage Theme Preview](preview-vintage.png)
+![Vintage Theme Preview](https://sudarshanbadli.github.io/Ai-Text-Formatter-Pro/)
 
 ## Features
 
@@ -165,5 +165,6 @@ This project is open source and available under the MIT License.
 Created with ❤️ for developers who work with AI assistants daily.
 
 ## Support
+
 
 For issues, feature requests, or questions, please open an issue on the GitHub repository.
