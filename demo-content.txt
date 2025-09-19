@@ -1,0 +1,84 @@
+# AI Text Formatter Demo
+
+This is a demonstration of how the AI Text Formatter Pro can transform AI assistant responses into beautifully formatted documents.
+
+## Features Showcase
+
+### 1. Headings Recognition
+The formatter automatically detects different heading levels:
+- Main headings (H1)
+- Section headings (H2)
+- Subsection headings (H3)
+
+### 2. List Processing
+Both numbered and bulleted lists are properly formatted:
+
+1. First item in a numbered list
+2. Second item with **bold text**
+3. Third item with *italic text*
+
+Bulleted list examples:
+- Simple bullet point
+- Bullet with `inline code`
+- Bullet with [link](https://example.com)
+
+### 3. Code Block Visualization
+```python
+def hello_world():
+    """Simple function to demonstrate code formatting"""
+    print("Hello, World!")
+    return True
+
+# Example usage
+result = hello_world()
+```
+
+```javascript
+// JavaScript example
+const formatText = (text) => {
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+               .replace(/\*(.*?)\*/g, '<em>$1</em>');
+};
+
+console.log(formatText("**Bold** and *italic* text"));
+```
+
+### 4. Table Processing
+| Feature        | Description                      | Status  |
+|----------------|----------------------------------|---------|
+| Headings       | Automatic detection              | ✅ Done |
+| Lists          | Numbered and bulleted            | ✅ Done |
+| Code Blocks    | Syntax highlighting              | ✅ Done |
+| Tables         | Markdown to HTML conversion      | ✅ Done |
+| Text Formatting| Bold, italic, and other styles   | ✅ Done |
+
+### 5. Text Formatting
+The formatter handles various text formatting options:
+- **Bold text** using double asterisks
+- *Italic text* using single asterisks
+- __Underlined text__ using double underscores
+- _Alternative italic_ using single underscores
+
+### 6. Blockquotes
+> This is an example of a blockquote.
+> It can span multiple lines and is styled appropriately.
+
+> Another blockquote with **bold text** and *italic text*.
+
+### 7. Horizontal Rules
+The formatter recognizes and properly displays horizontal rules:
+
+---
+
+### 8. Special Characters
+The formatter properly escapes HTML characters:
+- Less than: <
+- Greater than: >
+- Ampersand: &
+- Quotes: "text" and 'text'
+
+## Conclusion
+
+This demo showcases the powerful capabilities of the AI Text Formatter Pro. With its advanced detection algorithms and beautiful styling, it transforms raw AI responses into professional-looking documents with minimal effort.
+
+Try pasting this content into the formatter to see how it works!
